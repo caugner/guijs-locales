@@ -1,0 +1,23 @@
+{
+  "name": "guijs-locales",
+  "version": "0.1.0",
+  "description": "Localizations for @guijs",
+  "unpkg": "./locales",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caugner/guijs-locales.git"
+  },
+  "keywords": [
+    "guijs",
+    "locale"
+  ],
+  "author": "Claas Augner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caugner/guijs-locales/issues"
+  },
+  "homepage": "https://github.com/caugner/guijs-locales#readme",
+  "devDependencies": {
+    "axios": "^0.19.2"
+  }
+}

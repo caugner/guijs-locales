@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+
+[guijs.frontend-core]
+file_filter = locales/frontend-core/<lang>.json
+minimum_perc = 5
+source_file = locales/frontend-core/en.json
+source_lang = en
+type = KEYVALUEJSON
+

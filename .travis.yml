@@ -1,0 +1,45 @@
+stages:
+- name: update
+  if: branch = master AND type = cron
+- name: version
+  if: branch = master
+env:
+  global:
+  - GIT_USER_NAME=guijs-locales-bot
+  - GIT_USER_EMAIL=guijs-locales-bot@caugner.de
+matrix:
+  include:
+  - stage: update
+    language: python
+    script: |
+      if [ -n "$GH_TOKEN" -a -n "$TX_TOKEN" ]; then
+        git checkout "$TRAVIS_BRANCH"
+        tx pull --parallel -asf
+        git add .
+        git config --local user.name "$GIT_USER_NAME"
+        git config --local user.email "$GIT_USER_EMAIL"
+        git commit -m "[tx-bot] updated from transifex"
+        git push -f -q https://guijs-locales-bot:$GH_TOKEN@github.com/caugner/guijs-locales "$TRAVIS_BRANCH" &> /dev/null
+      fi
+  - stage: version
+    language: node_js
+    node_js:
+    - node
+    script: |
+      UPSTREAM=$(npm view @guijs/frontend-core version)
+      ORIGIN=$(npm view guijs-locales version)
+      if [ "$UPSTREAM" != "$ORIGIN" ]; then
+        git checkout "$TRAVIS_BRANCH"
+        git config --local user.name "$GIT_USER_NAME"
+        git config --local user.email "$GIT_USER_EMAIL"
+        export TRAVIS_TAG=$(npm version "$UPSTREAM")
+        git push -f -q --tags https://guijs-locales-bot:$GH_TOKEN@github.com/caugner/guijs-locales "$TRAVIS_BRANCH" &> /dev/null
+      fi
+deploy:
+  provider: npm
+  email: node@caugner.de
+  api_key: $NPM_TOKEN
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: caugner/guijs-locales
