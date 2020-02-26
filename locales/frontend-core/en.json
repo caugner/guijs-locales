@@ -1,0 +1,152 @@
+{
+  "guijs": {
+    "common": {
+      "search": "Search",
+      "more-info": "More info",
+      "save": "Save",
+      "cancel": "Cancel",
+      "proceed": "Proceed"
+    },
+    "home": {
+      "welcome": "Welcome to guijs",
+      "quick-actions": "Quick-actions",
+      "show-all-commands": "Show all commands",
+      "recent-projects": "Show recent projects",
+      "help": "Help",
+      "github-repository": "GitHub repository",
+      "website": "Website"
+    },
+    "status-bar": {
+      "toggle-terminals": "Toggle terminals"
+    },
+    "terminals": {
+      "new-terminal": "New terminal",
+      "no-terminal": "No terminal open",
+      "close-terminal": "Close terminal","close-terminal-pane": "Close terminal pane"
+    },
+    "find": {
+      "placeholder": "Type '?' to get help",
+      "help": {
+        "action": "Find actions...",
+        "project": "Find projects...",
+        "package": "Find packages...",
+        "config": "Find configurations...",
+        "script": "Find scripts..."
+      }
+    },
+    "import-project": {
+      "import-a-project": "Import a project",
+      "import-button": "Import",
+      "input-name-label": "Project name",
+      "input-name-placeholder": "Enter a project name",
+      "input-bookmarked-label": "Bookmark the project",
+      "error-path-does-not-exist": "Path doesn't exist",
+      "error-not-directory": "Path is not a directory",
+      "error-no-package-json": "No package.json found",
+      "error-name-required": "Project name is required",
+      "error-already-exists": "Project already exists in guijs database"
+    },
+    "create-project": {
+      "create-a-project": "Create a project",
+      "simple-project": "Simple project",
+      "simple-project-description": "Project with no workspaces, only a single level.",
+      "mono-repo": "Mono-repository project",
+      "mono-repo-description": "Project with workspaces. Each workspace is a separate sub-project.",
+      "input-name-label": "Project name",
+      "input-name-placeholder": "Enter a project name",
+      "input-generator-label": "Project generator",
+      "input-generator-placeholder": "Select a project generator"
+    },
+    "file-input": {
+      "select-a-file": "Select a file:",
+      "select-a-folder": "Select a folder:",
+      "no-file-selected": "No file selected",
+      "no-folder-selected": "No folder selected"
+    },
+    "setting-category": {
+      "general": "General",
+      "display": "Display"
+    },
+    "settings": {
+      "dark-mode": "Dark mode",
+      "dark-mode-description": "Use dark colors for the interface",
+      "toggle-dark-mode": "Toggle dark mode"
+    },
+    "side-pane": {
+      "no-project-open": "No project open",
+      "project-not-found": "Project not found",
+      "find": "Find",
+      "packages": "Packages",
+      "scripts": "Scripts"
+    },
+    "project-dropdown": {
+      "no-recent-projects": "No recent projects",
+      "recent-projects": "Recent projects"
+    },
+    "workspace": {
+      "select-button": "<div>{name}</div><div class=\"text-gray-500\">Type: {type}</div>",
+      "root": "(root)",
+      "tooltip": "Current workspace",
+      "action": "Click to change workspace",
+      "no-workspace-selected": "No workspace selected"
+    },
+    "edit-workspace": {
+      "edit-current-workspace": "Edit current workspace",
+      "input-name-label": "Workspace name",
+      "input-name-placeholder": "Enter a workspace name",
+      "input-type-label": "Workspace type",
+      "input-type-placeholder": "Select a workspace type"
+    },
+    "create-workspace": {
+      "create-workspace": "Create workspace",
+      "create-a-workspace": "Create a workspace",
+      "input-name-label": "Workspace name",
+      "input-name-placeholder": "Enter a workspace name",
+      "input-generator-label": "Project generator",
+      "input-generator-placeholder": "Select a project generator"
+    },
+    "package": {
+      "official": "official",
+      "workspace": "workspace",
+      "tooltip-workspace": "This package is a workspace referenced locally in your project",
+      "improve-metadata": "Help improve metadata",
+      "unknown": "Unknown",
+      "all": "All packages",
+      "show-packages": "Show packages",
+      "no-packages": "No packages found",
+      "version": "version",
+      "latest": "latest",
+      "tooltip-wanted": "Wanted version:",
+      "tooltip-installed": "Installed version:",
+      "tooltip-latest": "Latest version:"
+    },
+    "install-package": {
+      "install-package": "Install package",
+      "install-package-with-type": "Install {type} package",
+      "install-with-name": "Install {name}",
+      "install-as-dev-dependency": "Install as development dependency",
+      "input-version-label": "Package version",
+      "input-version-placeholder": "Select a version",
+      "input-selector-type-label": "Version range type",
+      "input-selector-type-placeholder": "Select a range type",
+      "version": "version",
+      "use-tag-as-selector": "Use tag as version selector"
+    },
+    "script": {
+      "show-scripts": "Show scripts",
+      "run-script": "Run script",
+      "stop-script": "Stop script",
+      "edit-script": "Edit script",
+      "output": "Output",
+      "no-scripts": "No scripts found"
+    },
+    "edit-script": {
+      "edit-script": "Edit script",
+      "rename-script": "Rename script",
+      "rename": "Rename",
+      "input-name-label": "Script name",
+      "input-name-placeholder": "Enter a script name",
+      "edit-directly": "Edit command directly"
+    }
+  }
+}
