@@ -1,0 +1,152 @@
+{
+  "guijs": {
+    "common": {
+      "search": "بحث",
+      "more-info": "المزيد من المعلومات",
+      "save": "حفظ",
+      "cancel": "الغاء",
+      "proceed": "اكمل"
+    },
+    "home": {
+      "welcome": "اهلا بك في guijs",
+      "quick-actions": "عملات سريعة",
+      "show-all-commands": "اعرض جميع الاوامر",
+      "recent-projects": "اعرض احدث المشاريع",
+      "help": "المساعدة",
+      "github-repository": "مستودعات GitHub",
+      "website": "الموقع"
+    },
+    "status-bar": {
+      "toggle-terminals": "فتج الطرفيات"
+    },
+    "terminals": {
+      "new-terminal": "طرفية جديدة",
+      "no-terminal": "لا توجد طرفيات مفتوحة",
+      "close-terminal": "اغلاق الطرفية","close-terminal-pane": "اغلاق لوحة الطرفية"
+    },
+    "find": {
+      "placeholder": "اضغط '?' للحصول على المساعدة",
+      "help": {
+        "action": "البحث عن العمليات...",
+        "project": "البحث عن المشاريع...",
+        "package": "البحث عن الحزم...",
+        "config": "البحث عن تشكيلات",
+        "script": "البحث عن النصوص البرمجية..."
+      }
+    },
+    "import-project": {
+      "import-a-project": "استيراد مشروع",
+      "import-button": "استيراد",
+      "input-name-label": "اسم المشروع",
+      "input-name-placeholder": "ادخل اسم المشروع",
+      "input-bookmarked-label": "تفضيل المشروع",
+      "error-path-does-not-exist": "المسار لا يوجد",
+      "error-not-directory": "المسار ليس مجلد",
+      "error-no-package-json": "package.json لا يوجد",
+      "error-name-required": "اسم المشروع مطلوب",
+      "error-already-exists": "المشروع موجود في قاعدة بيانات guijs"
+    },
+    "create-project": {
+      "create-a-project": "انشئ مشروع",
+      "simple-project": "مشروع بسيط",
+      "simple-project-description": "مشروع بلا مساحات عمل, فقط مستوى واحد.",
+      "mono-repo": "مشروع ذو مستودع احادي",
+      "mono-repo-description": "مشروع مع مساحات عمل. كل مساحة عمل في مشروع فرعي.",
+      "input-name-label": "اسم المشروع",
+      "input-name-placeholder": "ادخل اسم المشروع",
+      "input-generator-label": "منشئ المشاريع",
+      "input-generator-placeholder": "اختر منشئ المشاريع"
+    },
+    "file-input": {
+      "select-a-file": "حدد ملف:",
+      "select-a-folder": "حدد مجلد:",
+      "no-file-selected": "لا يوجد ملف محدد",
+      "no-folder-selected": "لا يوجد مجلد محدد"
+    },
+    "setting-category": {
+      "general": "عام",
+      "display": "عرض"
+    },
+    "settings": {
+      "dark-mode": "الوضع المظلم",
+      "dark-mode-description": "استخدم الوان داكنة في الواجهة",
+      "toggle-dark-mode": "تفعيل الوضع المظلم"
+    },
+    "side-pane": {
+      "no-project-open": "لا يوجد مشروع مفتوح",
+      "project-not-found": "لا يمكن العثور على المشروع",
+      "find": "ابحث",
+      "packages": "الحزم",
+      "scripts": "النصوص البرمجية"
+    },
+    "project-dropdown": {
+      "no-recent-projects": "لا توجد مشاريع حديثة",
+      "recent-projects": "مشاريع حديثة"
+    },
+    "workspace": {
+      "select-button": "<div>{name}</div><div class=\"text-gray-500\">النوع: {type}</div>",
+      "root": "(الجذر)",
+      "tooltip": "مساحة العمل الحالية",
+      "action": "اضغط لتغيير مساحة العمل",
+      "no-workspace-selected": "لا توجد مساحة عمل مختارة"
+    },
+    "edit-workspace": {
+      "edit-current-workspace": "عدل على مساحة العمل الحالية",
+      "input-name-label": "اسم مساحة العمل",
+      "input-name-placeholder": "ادخل اسم مساحة العمل",
+      "input-type-label": "نوع مساحة العمل",
+      "input-type-placeholder": "حدد نوع مساحة العمل"
+    },
+    "create-workspace": {
+      "create-workspace": "انشئ مساحة عمل",
+      "create-a-workspace": "انشئ مساحة عمل",
+      "input-name-label": "اسم مساحة العمل",
+      "input-name-placeholder": "ادخل اسم مساحة العمل",
+      "input-generator-label": "منشئ المشاريع",
+      "input-generator-placeholder": "اختر منشئ المشاريع"
+    },
+    "package": {
+      "official": "رسمي",
+      "workspace": "مساحة عمل",
+      "tooltip-workspace": "هذه الحزمة هي مساحة عمل تمت الاشارة إليها محلياً في مشروعك",
+      "improve-metadata": "ساعد في تحسين البيانات الفوقية",
+      "unknown": "غير معروف",
+      "all": "كل الحزم",
+      "show-packages": "اظهار الحزم",
+      "no-packages": "لا توجد حزم",
+      "version": "نسخة",
+      "latest": "الاخيرة",
+      "tooltip-wanted": "النسخة المطلوبة:",
+      "tooltip-installed": "النسخة المثبتة:",
+      "tooltip-latest": "النسخة الاخيرة:"
+    },
+    "install-package": {
+      "install-package": "تثبيت حزمة",
+      "install-package-with-type": "ثبت حزمة {type}",
+      "install-with-name": "ثبت {name}",
+      "install-as-dev-dependency": "ثبت كمتطلب تطويري",
+      "input-version-label": "نسخة الحزمة",
+      "input-version-placeholder": "حدد النسخة",
+      "input-selector-type-label": "نوع مدى النسخة",
+      "input-selector-type-placeholder": "حدد نوع المدى",
+      "version": "نسخة",
+      "use-tag-as-selector": "استخدم وسم كمحدد للنسخة"
+    },
+    "script": {
+      "show-scripts": "اظهار النصوص البرمجية",
+      "run-script": "تشغيل نص برمجي",
+      "stop-script": "ايقاف نص برمجي",
+      "edit-script": "تعديل نص برمجي",
+      "output": "المخرجات",
+      "no-scripts": "لا يوجد نصوص برمجية"
+    },
+    "edit-script": {
+      "edit-script": "تعديل نص برمجي",
+      "rename-script": "اعادة تسمية نص برمجي",
+      "rename": "اعادة تسمية",
+      "input-name-label": "اسم النص البرمجي",
+      "input-name-placeholder": "ادخل اسم النص البرمجي",
+      "edit-directly": "عدل الامر مباشرة"
+    }
+  }
+}

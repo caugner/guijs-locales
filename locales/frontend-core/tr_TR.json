@@ -1,0 +1,152 @@
+{
+  "guijs": {
+    "common": {
+      "search": "Ara",
+      "more-info": "Daha fazla bilgi",
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "proceed": "İlerle"
+    },
+    "home": {
+      "welcome": "guijs'e hoşgeldiniz",
+      "quick-actions": "Hızlı eylemler",
+      "show-all-commands": "Tüm komutları göster",
+      "recent-projects": "Son projeleri göster",
+      "help": "Yardım",
+      "github-repository": "GitHub deposu",
+      "website": "İnternet sitesi"
+    },
+    "status-bar": {
+      "toggle-terminals": "Terminalleri aç/kapat"
+    },
+    "terminals": {
+      "new-terminal": "Yeni terminal",
+      "no-terminal": "Açık terminal yok",
+      "close-terminal": "Terminali kapat","close-terminal-pane": "Terminal panelini kapat"
+    },
+    "find": {
+      "placeholder": "Yardım için '?' yazın",
+      "help": {
+        "action": "Eylemleri bul...",
+        "project": "Projeleri bul...",
+        "package": "Paketleri bul...",
+        "config": "Ayarları bul...",
+        "script": "Betikleri bul..."
+      }
+    },
+    "import-project": {
+      "import-a-project": "Bir projeyi içeri aktar",
+      "import-button": "İçeri aktar",
+      "input-name-label": "Proje adı",
+      "input-name-placeholder": "Bir proje adı girin",
+      "input-bookmarked-label": "Projeye yer işareti koy",
+      "error-path-does-not-exist": "Dosya yolu mevcut değil",
+      "error-not-directory": "Dosya yolu bir klasör değil",
+      "error-no-package-json": "package.json bulunamadı",
+      "error-name-required": "Proje adı gereklidir",
+      "error-already-exists": "Proje zaten guijs veri tabanında mevcut"
+    },
+    "create-project": {
+      "create-a-project": "Bir proje oluştur",
+      "simple-project": "Basit proje",
+      "simple-project-description": "Çalışma alanı olmayan, tek seviyeli proje.",
+      "mono-repo": "Tek depolu proje",
+      "mono-repo-description": "Çalışma alanları olan proje. Her bir çalışma alanı ayrı bir alt-projedir.",
+      "input-name-label": "Proje adı",
+      "input-name-placeholder": "Bir proje adı girin",
+      "input-generator-label": "Proje üretici",
+      "input-generator-placeholder": "Bir proje üretici seçin"
+    },
+    "file-input": {
+      "select-a-file": "Bir dosya seçin:",
+      "select-a-folder": "Bir klasör seçin:",
+      "no-file-selected": "Dosya seçilmedi",
+      "no-folder-selected": "Klasör seçilmedi"
+    },
+    "setting-category": {
+      "general": "Genel",
+      "display": "Görüntü"
+    },
+    "settings": {
+      "dark-mode": "Koyu mod",
+      "dark-mode-description": "Arayüz için koyu renkleri kullan",
+      "toggle-dark-mode": "Koyu modu aç/kapat"
+    },
+    "side-pane": {
+      "no-project-open": "Açık proje yok",
+      "project-not-found": "Proje bulunamadı",
+      "find": "Bul",
+      "packages": "Paketler",
+      "scripts": "Betikler"
+    },
+    "project-dropdown": {
+      "no-recent-projects": "Yeni proje yok",
+      "recent-projects": "Son projeler"
+    },
+    "workspace": {
+      "select-button": "<div>{name}</div><div class=\"text-gray-500\">Tür: {type}</div>",
+      "root": "(kök)",
+      "tooltip": "Mevcut çalışma alanı",
+      "action": "Çalışma alanını değiştirmek için tıklayın",
+      "no-workspace-selected": "Seçili çalışma alanı yok"
+    },
+    "edit-workspace": {
+      "edit-current-workspace": "Mevcut çalışma alanını düzenle",
+      "input-name-label": "Çalışma alanı adı",
+      "input-name-placeholder": "Bir çalışma alanı adı girin",
+      "input-type-label": "Çalışma alanı türü",
+      "input-type-placeholder": "Bir çalışma alanı türü seçin"
+    },
+    "create-workspace": {
+      "create-workspace": "Çalışma alanı oluştur",
+      "create-a-workspace": "Bir çalışma alanı oluştur",
+      "input-name-label": "Çalışma alanı adı",
+      "input-name-placeholder": "Bir çalışma alanı adı girin",
+      "input-generator-label": "Proje üretici",
+      "input-generator-placeholder": "Bir proje üretici seçin"
+    },
+    "package": {
+      "official": "resmi",
+      "workspace": "çalışma alanı",
+      "tooltip-workspace": "Bu paket, projenizde yerel olarak ilişkilendirilen bir çalışma alanıdır",
+      "improve-metadata": "Üstverinin geliştirilmesine yardım edin",
+      "unknown": "Bilinmeyen",
+      "all": "Tüm paketler",
+      "show-packages": "Paketleri göster",
+      "no-packages": "Hiç paket bulunamadı",
+      "version": "versiyon",
+      "latest": "en güncel",
+      "tooltip-wanted": "İstenen sürüm:",
+      "tooltip-installed": "Yüklü sürüm:",
+      "tooltip-latest": "En son sürüm:"
+    },
+    "install-package": {
+      "install-package": "Paket yükle",
+      "install-package-with-type": "{type} paketi yükle",
+      "install-with-name": "{name} yükle",
+      "install-as-dev-dependency": "Geliştirme bağımlılığı olarak yükle",
+      "input-version-label": "Paket sürümü",
+      "input-version-placeholder": "Bir sürüm seçin",
+      "input-selector-type-label": "Sürüm aralığı tipi",
+      "input-selector-type-placeholder": "Bir aralık tipi seçin",
+      "version": "sürüm",
+      "use-tag-as-selector": "Sürüm seçici olarak etiketi kullan"
+    },
+    "script": {
+      "show-scripts": "Betikleri göster",
+      "run-script": "Betik çalıştır",
+      "stop-script": "Betiği durdur",
+      "edit-script": "Betiği düzenle",
+      "output": "Çıktı",
+      "no-scripts": "Hiç betik bulunamadı"
+    },
+    "edit-script": {
+      "edit-script": "Betiği düzenle",
+      "rename-script": "Betiği yeniden adlandır",
+      "rename": "Yeniden adlandır",
+      "input-name-label": "Betik adı",
+      "input-name-placeholder": "Bir betik adı girin",
+      "edit-directly": "Komutu direk olarak düzenle"
+    }
+  }
+}

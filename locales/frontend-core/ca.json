@@ -1,0 +1,152 @@
+{
+  "guijs": {
+    "common": {
+      "search": "Cerca",
+      "more-info": "Més informació",
+      "save": "Desa",
+      "cancel": "Cancel·la",
+      "proceed": "Segueix"
+    },
+    "home": {
+      "welcome": "Benvingut a guijs",
+      "quick-actions": "Accions ràpides",
+      "show-all-commands": "Mostra totes les comandes",
+      "recent-projects": "Mostra els projectes recents",
+      "help": "Ajuda",
+      "github-repository": "Repositori a GitHub",
+      "website": "Lloc web"
+    },
+    "status-bar": {
+      "toggle-terminals": "Commuta els terminals"
+    },
+    "terminals": {
+      "new-terminal": "Nou terminal",
+      "no-terminal": "Cap terminal obert",
+      "close-terminal": "Tanca el terminal","close-terminal-pane": "Tanca el panell del terminal"
+    },
+    "find": {
+      "placeholder": "Escriviu \"?\" per ajuda",
+      "help": {
+        "action": "Troba accions...",
+        "project": "Troba projectes...",
+        "package": "Troba paquets...",
+        "config": "Troba configuracions...",
+        "script": "Troba scripts..."
+      }
+    },
+    "import-project": {
+      "import-a-project": "Importa un projecte",
+      "import-button": "Importa",
+      "input-name-label": "Nom del projecte",
+      "input-name-placeholder": "Escriviu el nom del projecte",
+      "input-bookmarked-label": "Desa el projecte als marcadors",
+      "error-path-does-not-exist": "La ruta no existeix",
+      "error-not-directory": "La ruta no és un directori",
+      "error-no-package-json": "No s'ha trobat package.json",
+      "error-name-required": "Cal escriure el nom del projecte",
+      "error-already-exists": "Aquest projecte ja existeix a la base de dades de guijs"
+    },
+    "create-project": {
+      "create-a-project": "Crea un projecte",
+      "simple-project": "Projecte simple",
+      "simple-project-description": "Projecte sense espai de treball, només un nivell.",
+      "mono-repo": "Projecte mono-repositori",
+      "mono-repo-description": "Projecte amb espais de treball. Cada espai de treball és un sub-projecte separat.",
+      "input-name-label": "Nom del projecte",
+      "input-name-placeholder": "Escriviu el nom del projecte",
+      "input-generator-label": "Generador de projectes",
+      "input-generator-placeholder": "Seleccioneu un generador de projectes"
+    },
+    "file-input": {
+      "select-a-file": "Seleccioneu un fitxer:",
+      "select-a-folder": "Seleccioneu una carpeta:",
+      "no-file-selected": "No s'ha seleccionat cap fitxer",
+      "no-folder-selected": "No s'ha seleccionat cap carpeta"
+    },
+    "setting-category": {
+      "general": "General",
+      "display": "Visualització"
+    },
+    "settings": {
+      "dark-mode": "Mode fosc",
+      "dark-mode-description": "Utilitza colors foscos per la interfície",
+      "toggle-dark-mode": "Commuta el mode fosc"
+    },
+    "side-pane": {
+      "no-project-open": "No hi ha cap projecte obert",
+      "project-not-found": "No s'ha trobat el projecte",
+      "find": "Troba",
+      "packages": "Paquets",
+      "scripts": "Scripts"
+    },
+    "project-dropdown": {
+      "no-recent-projects": "No hi ha projectes recents",
+      "recent-projects": "Projectes recents"
+    },
+    "workspace": {
+      "select-button": "<div>{name}</div><div class=\"text-gray-500\">Tipus: {type}</div>",
+      "root": "(arrel)",
+      "tooltip": "Espai de treball actual",
+      "action": "Feu clic per canviar l'espai de treball",
+      "no-workspace-selected": "No s'ha seleccionat cap espai de treball"
+    },
+    "edit-workspace": {
+      "edit-current-workspace": "Edita l'espai de treball actual",
+      "input-name-label": "Nom de l'espai de treball",
+      "input-name-placeholder": "Escriviu un nom per l'espai de treball",
+      "input-type-label": "Tipus d'espai de treball",
+      "input-type-placeholder": "Seleccioneu un tipus d'espai de treball"
+    },
+    "create-workspace": {
+      "create-workspace": "Crea espai de treball",
+      "create-a-workspace": "Crea un espai de treball",
+      "input-name-label": "Nom de l'espai de treball",
+      "input-name-placeholder": "Escriviu un nom per l'espai de treball",
+      "input-generator-label": "Generador de projectes",
+      "input-generator-placeholder": "Seleccioneu un generador de projectes"
+    },
+    "package": {
+      "official": "oficial",
+      "workspace": "espai de treball",
+      "tooltip-workspace": "Aquest paquet és un espai de treball referenciat localment al vostre projecte",
+      "improve-metadata": "Ajudeu a millorar les metadades",
+      "unknown": "Desconegut",
+      "all": "Tots els paquets",
+      "show-packages": "Mostra els paquets",
+      "no-packages": "No s'ha trobat cap paquet",
+      "version": "versió",
+      "latest": "més recent",
+      "tooltip-wanted": "Versió desitjada:",
+      "tooltip-installed": "Versió instal·lada:",
+      "tooltip-latest": "Darrera versió:"
+    },
+    "install-package": {
+      "install-package": "Instal·la el paquet",
+      "install-package-with-type": "Instal·la el paquet {type}",
+      "install-with-name": "Instal·la {name}",
+      "install-as-dev-dependency": "Instal·la com a dependència de desenvolupament",
+      "input-version-label": "Versió del paquet",
+      "input-version-placeholder": "Seleccioneu una versió",
+      "input-selector-type-label": "Tipus de rang de la versió",
+      "input-selector-type-placeholder": "Seleccioneu un tipus de rang",
+      "version": "versió",
+      "use-tag-as-selector": "Utilitza l'etiqueta com a selector de versió"
+    },
+    "script": {
+      "show-scripts": "Mostra els scripts",
+      "run-script": "Executa script",
+      "stop-script": "Atura script",
+      "edit-script": "Edita script",
+      "output": "Sortida",
+      "no-scripts": "No s'han trobat scripts"
+    },
+    "edit-script": {
+      "edit-script": "Edita script",
+      "rename-script": "Reanomena script",
+      "rename": "Reanomena",
+      "input-name-label": "Nom del script",
+      "input-name-placeholder": "Escriviu un nom per al script",
+      "edit-directly": "Edita la comanda directament"
+    }
+  }
+}

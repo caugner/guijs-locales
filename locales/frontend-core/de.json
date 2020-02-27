@@ -1,0 +1,152 @@
+{
+  "guijs": {
+    "common": {
+      "search": "Suche",
+      "more-info": "Weitere Informationen",
+      "save": "Speichern",
+      "cancel": "Abbrechen",
+      "proceed": "Fortfahren"
+    },
+    "home": {
+      "welcome": "Willkommen bei guijs",
+      "quick-actions": "Schnell-Aktionen",
+      "show-all-commands": "Zeige alle Befehle",
+      "recent-projects": "Zeige kürzliche Projekte",
+      "help": "Hilfe",
+      "github-repository": "GitHub-Repository",
+      "website": "Webseite"
+    },
+    "status-bar": {
+      "toggle-terminals": "Terminal umschalten"
+    },
+    "terminals": {
+      "new-terminal": "Neues Terminal",
+      "no-terminal": "Kein Terminal geöffnet",
+      "close-terminal": "Terminal schließen","close-terminal-pane": "Terminal-Bereich schließen"
+    },
+    "find": {
+      "placeholder": "Tippe '?' für Hilfe",
+      "help": {
+        "action": "Aktionen suchen…",
+        "project": "Projekte suchen…",
+        "package": "Pakete suchen…",
+        "config": "Konfigurationen suchen…",
+        "script": "Skripte suchen…"
+      }
+    },
+    "import-project": {
+      "import-a-project": "Projekt importieren",
+      "import-button": "Import",
+      "input-name-label": "Projektname",
+      "input-name-placeholder": "Projektname eingeben",
+      "input-bookmarked-label": "Projekt-Lesezeichen setzen",
+      "error-path-does-not-exist": "Pfad existiert nicht",
+      "error-not-directory": "Pfad ist kein Verzeichnis",
+      "error-no-package-json": "Keine package.json gefunden",
+      "error-name-required": "Projektname ist erforderlich",
+      "error-already-exists": "Projekt existiert bereits in der guijs-Datenbank"
+    },
+    "create-project": {
+      "create-a-project": "Projekt erstellen",
+      "simple-project": "Einfaches Projekt",
+      "simple-project-description": "Projekt ohne Workspaces, nur eine Ebene",
+      "mono-repo": "Projekt mit Mono-Repository",
+      "mono-repo-description": "Projekt mit Workspaces. Jeder Workspace ist ein separates Unter-Projekt.",
+      "input-name-label": "Projektname",
+      "input-name-placeholder": "Projektname eingeben",
+      "input-generator-label": "Projekt-Generator",
+      "input-generator-placeholder": "Projekt-Generator auswählen"
+    },
+    "file-input": {
+      "select-a-file": "Datei auswählen:",
+      "select-a-folder": "Verzeichnis auswählen:",
+      "no-file-selected": "Keine Datei ausgewählt",
+      "no-folder-selected": "Kein Ordner ausgewählt"
+    },
+    "setting-category": {
+      "general": "Allgemein",
+      "display": "Anzeigen"
+    },
+    "settings": {
+      "dark-mode": "Nachtmodus",
+      "dark-mode-description": "Verwende dunkle Farben für die Oberfläche",
+      "toggle-dark-mode": "Nachtmodus umschalten"
+    },
+    "side-pane": {
+      "no-project-open": "Kein offenes Projekt",
+      "project-not-found": "Projekt nicht gefunden",
+      "find": "Suchen",
+      "packages": "Pakete",
+      "scripts": "Skripte"
+    },
+    "project-dropdown": {
+      "no-recent-projects": "Keine kürzlichen Projekte",
+      "recent-projects": "Kürzliche Projekte"
+    },
+    "workspace": {
+      "select-button": "<div>{name}</div><div class=\"text-gray-500\">Art: {type}</div>",
+      "root": "(Wurzel)",
+      "tooltip": "Aktueller Workspace",
+      "action": "Workspace wechseln",
+      "no-workspace-selected": "Kein Workspace ausgewählt"
+    },
+    "edit-workspace": {
+      "edit-current-workspace": "Aktuellen Workspace bearbeiten",
+      "input-name-label": "Workspace-Name",
+      "input-name-placeholder": "Workspace-Name eingeben",
+      "input-type-label": "Workspace-Art",
+      "input-type-placeholder": "Workspace-Art auswählen"
+    },
+    "create-workspace": {
+      "create-workspace": "Workspace erstellen",
+      "create-a-workspace": "Einen Workspace erstellen",
+      "input-name-label": "Workspace-Name",
+      "input-name-placeholder": "Workspace-Name eingeben",
+      "input-generator-label": "Projekt-Generator",
+      "input-generator-placeholder": "Projekt-Generator auswählen"
+    },
+    "package": {
+      "official": "offiziell",
+      "workspace": "Workspace",
+      "tooltip-workspace": "Dieses Paket ist ein Workspace, der lokal in deinem Projekt referenziert ist.",
+      "improve-metadata": "Hilf mit, die Metadaten zu verbessern",
+      "unknown": "Unbekannt",
+      "all": "Alle Pakete",
+      "show-packages": "Pakete anzeigen",
+      "no-packages": "Keine Pakete gefunden",
+      "version": "Version",
+      "latest": "aktuell",
+      "tooltip-wanted": "Gewünschte Version:",
+      "tooltip-installed": "Installierte Version:",
+      "tooltip-latest": "Aktuellste Version:"
+    },
+    "install-package": {
+      "install-package": "Paket installieren",
+      "install-package-with-type": "Paket {type} installieren",
+      "install-with-name": "{name} installieren",
+      "install-as-dev-dependency": "Als Entwickler-Abhängigkeit installieren",
+      "input-version-label": "Paket-Version",
+      "input-version-placeholder": "Version auswählen",
+      "input-selector-type-label": "Versionsbereichtyp",
+      "input-selector-type-placeholder": "Bereichtyp auswählen",
+      "version": "Version",
+      "use-tag-as-selector": "Verwende Schlagwort als Selektor"
+    },
+    "script": {
+      "show-scripts": "Skripte anzeigen",
+      "run-script": "Skript ausführen",
+      "stop-script": "Skript beenden",
+      "edit-script": "Skript bearbeiten",
+      "output": "Ausgabe",
+      "no-scripts": "Keine Skripte gefunden"
+    },
+    "edit-script": {
+      "edit-script": "Skript bearbeiten",
+      "rename-script": "Skript umbenennen",
+      "rename": "Umbenennen",
+      "input-name-label": "Skript-Name",
+      "input-name-placeholder": "Skript-Name eingeben",
+      "edit-directly": "Befehl direkt bearbeiten"
+    }
+  }
+}
