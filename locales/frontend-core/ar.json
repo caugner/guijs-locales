@@ -22,7 +22,9 @@
     "terminals": {
       "new-terminal": "طرفية جديدة",
       "no-terminal": "لا توجد طرفيات مفتوحة",
-      "close-terminal": "اغلاق الطرفية","close-terminal-pane": "اغلاق لوحة الطرفية"
+      "close-terminal": "اغلاق الطرفية","close-terminal-pane": "اغلاق لوحة الطرفية",
+      "copy": "Copy selection",
+      "paste": "Paste"
     },
     "find": {
       "placeholder": "اضغط '?' للحصول على المساعدة",

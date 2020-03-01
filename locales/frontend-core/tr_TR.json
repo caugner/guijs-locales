@@ -22,7 +22,9 @@
     "terminals": {
       "new-terminal": "Yeni terminal",
       "no-terminal": "Açık terminal yok",
-      "close-terminal": "Terminali kapat","close-terminal-pane": "Terminal panelini kapat"
+      "close-terminal": "Terminali kapat","close-terminal-pane": "Terminal panelini kapat",
+      "copy": "Copy selection",
+      "paste": "Paste"
     },
     "find": {
       "placeholder": "Yardım için '?' yazın",

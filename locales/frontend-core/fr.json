@@ -22,7 +22,9 @@
     "terminals": {
       "new-terminal": "Nouveau terminal",
       "no-terminal": "Aucun terminal ouvert",
-      "close-terminal": "Fermer le terminal","close-terminal-pane": "Fermer le panneau du terminal"
+      "close-terminal": "Fermer le terminal","close-terminal-pane": "Fermer le panneau du terminal",
+      "copy": "Copy selection",
+      "paste": "Paste"
     },
     "find": {
       "placeholder": "Taper '?' pour obtenir de l'aide",

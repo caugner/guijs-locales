@@ -22,7 +22,9 @@
     "terminals": {
       "new-terminal": "Nou terminal",
       "no-terminal": "Cap terminal obert",
-      "close-terminal": "Tanca el terminal","close-terminal-pane": "Tanca el panell del terminal"
+      "close-terminal": "Tanca el terminal","close-terminal-pane": "Tanca el panell del terminal",
+      "copy": "Copy selection",
+      "paste": "Paste"
     },
     "find": {
       "placeholder": "Escriviu \"?\" per ajuda",
