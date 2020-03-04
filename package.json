@@ -1,6 +1,6 @@
 {
   "name": "guijs-locales",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "description": "Localizations for @guijs",
   "unpkg": "./locales",
   "repository": {
