@@ -1,0 +1,154 @@
+{
+  "guijs": {
+    "common": {
+      "search": "جستجو ",
+      "more-info": "اطلاعات بیشتر",
+      "save": "ذخیره ",
+      "cancel": "لغو ",
+      "proceed": "پیش رفتن"
+    },
+    "home": {
+      "welcome": "به guijs خوش آمدید",
+      "quick-actions": "اقدامات سریع",
+      "show-all-commands": "نمایش همه ی دستورات ",
+      "recent-projects": "نمایش پروژه های اخیر",
+      "help": "کمک",
+      "github-repository": "مخزن GitHub ",
+      "website": "وبسایت"
+    },
+    "status-bar": {
+      "toggle-terminals": "تغییر وضعیت به ترمینال "
+    },
+    "terminals": {
+      "new-terminal": "ترمینال جدید ",
+      "no-terminal": "ترمینالی باز نیست",
+      "close-terminal": "بستن ترمینال ","close-terminal-pane": "بستن صفحه ترمینال ",
+      "copy": "کپی کردن انتخاب شده ها",
+      "paste": "چسباندن"
+    },
+    "find": {
+      "placeholder": "برای کمک گرفتن \"?\" را تایپ کنید",
+      "help": {
+        "action": "پیدا کردن اقدامات...",
+        "project": "پیدا کردن پروژه ها...",
+        "package": "پیدا کردن پیکیج ها...",
+        "config": "پیدا کردن پیکربندی ها...",
+        "script": "پیدا کردن اسکریپت ها..."
+      }
+    },
+    "import-project": {
+      "import-a-project": "وارد کردن یک پروژه",
+      "import-button": "وارد كردن",
+      "input-name-label": "نام پروژه",
+      "input-name-placeholder": "نام پروژه را وارد کنید",
+      "input-bookmarked-label": "پروژه را علامت گذاری کنید",
+      "error-path-does-not-exist": "مسیر وجود ندارد",
+      "error-not-directory": "این مسیر دایرکتوری نست",
+      "error-no-package-json": "فایل package.json پیدا نشد",
+      "error-name-required": "نام پروژه الزامی است",
+      "error-already-exists": "پروژه در بانک اطلاعاتی guijs وجود دارد"
+    },
+    "create-project": {
+      "create-a-project": "ایجاد یک پروژه",
+      "simple-project": "پروژه ساده",
+      "simple-project-description": "پروژه بدون فضای کاری ، فقط در یک سطح واحد.",
+      "mono-repo": "Mono-repository پروژه",
+      "mono-repo-description": "پروژه با فضاهای کاری. هر فضای کاری یک پروژه فرعی جداگانه است.",
+      "input-name-label": "نام پروژه",
+      "input-name-placeholder": "نام پروژه را وارد کنید",
+      "input-generator-label": "تولید کننده پروژه",
+      "input-generator-placeholder": "تولید کننده پروژه خود را انتخاب کنید"
+    },
+    "file-input": {
+      "select-a-file": "فایلی را انتخاب کنید:",
+      "select-a-folder": "پوشه ای را انتخاب کنید:",
+      "no-file-selected": "هیچ فایلی انتخاب نشده است",
+      "no-folder-selected": "هیچ پوشه ای انتخاب نشده است"
+    },
+    "setting-category": {
+      "general": "عمومی",
+      "display": "نمایش"
+    },
+    "settings": {
+      "dark-mode": "حالت تاریک",
+      "dark-mode-description": "استفاده از رنگ های تاریک برای رابط کاربری",
+      "toggle-dark-mode": "تغییر وضعیت به حالت تاریک "
+    },
+    "side-pane": {
+      "no-project-open": "هیچ پروژه ای باز نیست",
+      "project-not-found": "پروژه ای پیدا نشد",
+      "find": "پیدا کردن",
+      "packages": "پکیج ها",
+      "scripts": "اسکریپت ها"
+    },
+    "project-dropdown": {
+      "no-recent-projects": "هیچ پروژه اخیر",
+      "recent-projects": "پروژه های اخیر"
+    },
+    "workspace": {
+      "select-button": "<div>{name}</div><div class=\"text-gray-500\"> نوع: {type}</div>",
+      "root": "(root)",
+      "tooltip": "فضای کاری فعلی",
+      "action": "برای تغییر فضای کاری کلیک کنید",
+      "no-workspace-selected": "فضای کاری انتخاب نشده است"
+    },
+    "edit-workspace": {
+      "edit-current-workspace": " ویرایش فضای کاری فعلی",
+      "input-name-label": "نام فضای کاری",
+      "input-name-placeholder": "نام فضای کاری را وارد کنید",
+      "input-type-label": "نوع فضای کاری",
+      "input-type-placeholder": "نوع فضای کاری را انتخاب کنید"
+    },
+    "create-workspace": {
+      "create-workspace": "فضای کاری ایجاد کنید",
+      "create-a-workspace": "یک فضای کاری ایجاد کنید",
+      "input-name-label": "نام فضای کاری",
+      "input-name-placeholder": "نام فضای کاری را وارد کنید",
+      "input-generator-label": "تولید کننده پروژه",
+      "input-generator-placeholder": "تولید کننده پروژه خود را انتخاب کنید"
+    },
+    "package": {
+      "official": "رسمی",
+      "workspace": "فضای کاری",
+      "tooltip-workspace": "این پکیج یک فضای کاری است که به صورت محلی در پروژه شما ارجاع می شود",
+      "improve-metadata": "به بهبود ابرداده کمک کنید",
+      "unknown": "ناشناس",
+      "all": "همه ی پکیج ها",
+      "show-packages": "نمایش پکیج ها",
+      "no-packages": "پکیجی پیدا نشد",
+      "version": "نسخه",
+      "latest": "آخرین",
+      "tooltip-wanted": "نسخه ی خواسته شده:",
+      "tooltip-installed": "نسخه ی نصب شده:",
+      "tooltip-latest": "آخرین نسخه:"
+    },
+    "install-package": {
+      "install-package": "نصب پکیج ",
+      "install-package-with-type": "نصب {type} پکیج ",
+      "install-with-name": "نصب {name}",
+      "install-as-dev-dependency": "نصب به عنوان وابستگی به توسعه",
+      "input-version-label": "نسخه پکیج ",
+      "input-version-placeholder": "انتخاب یک نسخه",
+      "input-selector-type-label": "نوع محدوه نسخه ",
+      "input-selector-type-placeholder": "یک نوع محدوده را انتخاب کنید",
+      "version": "نسخه",
+      "use-tag-as-selector": "از برچسب به عنوان انتخاب کننده نسخه استفاده کنید"
+    },
+    "script": {
+      "show-scripts": "نمایش اسکریپت ها",
+      "run-script": "اجرای اسکریپت",
+      "stop-script": "متوقف کردن اسکریپت",
+      "edit-script": "ویرایش اسکریپت",
+      "output": "خروجی",
+      "no-scripts": "اسکریپتی پیدا نشد"
+    },
+    "edit-script": {
+      "edit-script": "ویرایش اسکریپت",
+      "rename-script": "تغییر نام اسکریپت",
+      "rename": "تغییر نام ",
+      "input-name-label": "نام اسکریپت ",
+      "input-name-placeholder": "نام اسکریپت را وارد کنید",
+      "edit-directly": "ویرایش دستور به صورت مستقیم "
+    }
+  }
+}
