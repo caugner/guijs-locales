@@ -17,138 +17,138 @@
       "website": "Website"
     },
     "status-bar": {
-      "toggle-terminals": "Toggle terminals"
+      "toggle-terminals": "Comutare terminale"
     },
     "terminals": {
       "new-terminal": "Terminal nou",
       "no-terminal": "Niciun terminal deschis",
-      "close-terminal": "Închide terminalul","close-terminal-pane": "Close terminal pane",
+      "close-terminal": "Închide terminalul","close-terminal-pane": "Închideți panoul terminalului",
       "copy": "Copiază",
       "paste": "Lipește"
     },
     "find": {
       "placeholder": "Scrie '?' pentru ajutor",
       "help": {
-        "action": "Găsește acțiuni...",
-        "project": "Găsește proiecte...",
-        "package": "Găsește pachete....",
-        "config": "Find configurations...",
-        "script": "Find scripts..."
+        "action": "Găsiți acțiuni...",
+        "project": "Găsiți proiecte...",
+        "package": "Găsiți pachete....",
+        "config": "Găsiți configurații...",
+        "script": "Găsiți scripturi..."
       }
     },
     "import-project": {
       "import-a-project": "Importă proiect",
       "import-button": "Importă",
       "input-name-label": "Nume proiect",
-      "input-name-placeholder": "Enter a project name",
-      "input-bookmarked-label": "Bookmark the project",
-      "error-path-does-not-exist": "Path doesn't exist",
-      "error-not-directory": "Path is not a directory",
-      "error-no-package-json": "No package.json found",
-      "error-name-required": "Project name is required",
-      "error-already-exists": "Project already exists in guijs database"
+      "input-name-placeholder": "Introduceți un nume de proiect",
+      "input-bookmarked-label": "Marchează proiectul",
+      "error-path-does-not-exist": "Locația nu există",
+      "error-not-directory": "Locația nu este un folder",
+      "error-no-package-json": "Nu a fost găsit package.json",
+      "error-name-required": "Numele proiectului este necesar",
+      "error-already-exists": "Proiectul există deja în baza de date guijs"
     },
     "create-project": {
-      "create-a-project": "Create a project",
-      "simple-project": "Simple project",
-      "simple-project-description": "Project with no workspaces, only a single level.",
-      "mono-repo": "Mono-repository project",
-      "mono-repo-description": "Project with workspaces. Each workspace is a separate sub-project.",
+      "create-a-project": "Crează un proiect",
+      "simple-project": "Proiect simplu",
+      "simple-project-description": "Proiect fără spații de lucru, doar un singur nivel.",
+      "mono-repo": "Proiect mono-repository",
+      "mono-repo-description": "Proiect cu mai multe spații de lucru. Fiecare spațiu de lucru este un sub-proiect separat.",
       "input-name-label": "Nume proiect",
-      "input-name-placeholder": "Enter a project name",
-      "input-generator-label": "Project generator",
-      "input-generator-placeholder": "Select a project generator"
+      "input-name-placeholder": "Introduceți un nume de proiect",
+      "input-generator-label": "Generator proiect",
+      "input-generator-placeholder": "Selectează un generator de proiect"
     },
     "file-input": {
-      "select-a-file": "Select a file:",
-      "select-a-folder": "Select a folder:",
-      "no-file-selected": "No file selected",
-      "no-folder-selected": "No folder selected"
+      "select-a-file": "Selectează un fișier:",
+      "select-a-folder": "Selectează un folder:",
+      "no-file-selected": "Niciun fișier selectat",
+      "no-folder-selected": "Niciun folder selectat"
     },
     "setting-category": {
       "general": "General",
-      "display": "Display"
+      "display": "Afișează"
     },
     "settings": {
-      "dark-mode": "Dark mode",
-      "dark-mode-description": "Use dark colors for the interface",
-      "toggle-dark-mode": "Toggle dark mode"
+      "dark-mode": "Modul întunecat",
+      "dark-mode-description": "Utilizați culori întunecate pentru interfață",
+      "toggle-dark-mode": "Comutați modul întunecat"
     },
     "side-pane": {
-      "no-project-open": "No project open",
-      "project-not-found": "Project not found",
-      "find": "Find",
-      "packages": "Packages",
-      "scripts": "Scripts"
+      "no-project-open": "Niciun proiect deschis",
+      "project-not-found": "Proiectul este de negăsit",
+      "find": "Găsiți",
+      "packages": "Pachete",
+      "scripts": "Scripturi"
     },
     "project-dropdown": {
-      "no-recent-projects": "No recent projects",
-      "recent-projects": "Recent projects"
+      "no-recent-projects": "Nu există proiecte recente",
+      "recent-projects": "Proiecte recente"
     },
     "workspace": {
-      "select-button": "<div>{name}</div><div class=\"text-gray-500\">Type: {type}</div>",
-      "root": "(root)",
-      "tooltip": "Current workspace",
-      "action": "Click to change workspace",
-      "no-workspace-selected": "No workspace selected"
+      "select-button": "<div>{name}</div><div class=\"text-gray-500\">Tip: {type}</div>",
+      "root": "(rădăcină)",
+      "tooltip": "Spațiul de lucru curent",
+      "action": "Faceți clic pentru a schimba spațiul de lucru",
+      "no-workspace-selected": "Nu a fost selectat spațiul de lucru"
     },
     "edit-workspace": {
-      "edit-current-workspace": "Edit current workspace",
-      "input-name-label": "Workspace name",
-      "input-name-placeholder": "Enter a workspace name",
-      "input-type-label": "Workspace type",
-      "input-type-placeholder": "Select a workspace type"
+      "edit-current-workspace": "Editați spațiul de lucru curent",
+      "input-name-label": "Numele spațiului de lucru",
+      "input-name-placeholder": "Denumește spațiul de lucru",
+      "input-type-label": "Tipul spațiului de lucru",
+      "input-type-placeholder": "Selectează un tip de spațiu de lucru"
     },
     "create-workspace": {
-      "create-workspace": "Create workspace",
-      "create-a-workspace": "Create a workspace",
-      "input-name-label": "Workspace name",
-      "input-name-placeholder": "Enter a workspace name",
-      "input-generator-label": "Project generator",
-      "input-generator-placeholder": "Select a project generator"
+      "create-workspace": "Crează spațiu de lucru",
+      "create-a-workspace": "Crează un spațiu de lucru",
+      "input-name-label": "Numele spațiului de lucru",
+      "input-name-placeholder": "Denumește spațiul de lucru",
+      "input-generator-label": "Generator proiect",
+      "input-generator-placeholder": "Selectează un generator de proiect"
     },
     "package": {
-      "official": "official",
-      "workspace": "workspace",
-      "tooltip-workspace": "This package is a workspace referenced locally in your project",
-      "improve-metadata": "Help improve metadata",
-      "unknown": "Unknown",
-      "all": "All packages",
-      "show-packages": "Show packages",
-      "no-packages": "No packages found",
-      "version": "version",
-      "latest": "latest",
-      "tooltip-wanted": "Wanted version:",
-      "tooltip-installed": "Installed version:",
-      "tooltip-latest": "Latest version:"
+      "official": "oficial",
+      "workspace": "spațiu de lucru",
+      "tooltip-workspace": "Acest pachet este un spațiu de lucru la care se face referire locală în proiectul dvs.",
+      "improve-metadata": "Ajutați la îmbunătățirea metadatelor",
+      "unknown": "Necunoscut",
+      "all": "Toate pachetele",
+      "show-packages": "Afișează pachetele",
+      "no-packages": "Nu au fost găsite pachete",
+      "version": "versiune",
+      "latest": "ultima",
+      "tooltip-wanted": "Versiunea dorită:",
+      "tooltip-installed": "Versiunea instalată:",
+      "tooltip-latest": "Ultima versiune:"
     },
     "install-package": {
-      "install-package": "Install package",
-      "install-package-with-type": "Install {type} package",
-      "install-with-name": "Install {name}",
-      "install-as-dev-dependency": "Install as development dependency",
-      "input-version-label": "Package version",
-      "input-version-placeholder": "Select a version",
-      "input-selector-type-label": "Version range type",
-      "input-selector-type-placeholder": "Select a range type",
-      "version": "version",
-      "use-tag-as-selector": "Use tag as version selector"
+      "install-package": "Instalează pachetul",
+      "install-package-with-type": "Instalează {type} pachetul",
+      "install-with-name": "Instalează {name}",
+      "install-as-dev-dependency": "Instalează ca dependință pentru dezvoltare",
+      "input-version-label": "Versiune pachet",
+      "input-version-placeholder": "Selectează o versiune",
+      "input-selector-type-label": "Tip interval versiune",
+      "input-selector-type-placeholder": "Selectează un tip de interval",
+      "version": "versiune",
+      "use-tag-as-selector": "Utilizați eticheta ca selector de versiuni"
     },
     "script": {
-      "show-scripts": "Show scripts",
-      "run-script": "Run script",
-      "stop-script": "Stop script",
-      "edit-script": "Edit script",
-      "output": "Output",
-      "no-scripts": "No scripts found"
+      "show-scripts": "Afișează scripturile",
+      "run-script": "Rulează scriptul",
+      "stop-script": "Oprește scriptul",
+      "edit-script": "Editează scriptul",
+      "output": "Ieșire",
+      "no-scripts": "Nu au fost găsite scripturi"
     },
     "edit-script": {
-      "edit-script": "Edit script",
-      "rename-script": "Rename script",
-      "rename": "Rename",
-      "input-name-label": "Script name",
-      "input-name-placeholder": "Enter a script name",
-      "edit-directly": "Edit command directly"
+      "edit-script": "Editează scriptul",
+      "rename-script": "Redenumește scriptul",
+      "rename": "Redenumire",
+      "input-name-label": "Denumire script",
+      "input-name-placeholder": "Introduceți un nume pentru script",
+      "edit-directly": "Editează comanda direct"
     }
   }
 }
