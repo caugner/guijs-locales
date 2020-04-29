@@ -1,0 +1,154 @@
+{
+  "guijs": {
+    "common": {
+      "search": "Buscar",
+      "more-info": "Más información",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "proceed": "Procesado"
+    },
+    "home": {
+      "welcome": "Bienvenido a guijs",
+      "quick-actions": "Acción-rápida",
+      "show-all-commands": "Mostrar todos los comandos",
+      "recent-projects": "Mostrar proyectos recientes",
+      "help": "Ayuda",
+      "github-repository": "Repositorio GitHub",
+      "website": "Sitio Web"
+    },
+    "status-bar": {
+      "toggle-terminals": "Marcadores de terminales"
+    },
+    "terminals": {
+      "new-terminal": "Nueva terminal",
+      "no-terminal": "Terminal no abierta",
+      "close-terminal": "Terminal cerrada","close-terminal-pane": "Cerrar panel de terminal",
+      "copy": "Copiar selección",
+      "paste": "Pegar"
+    },
+    "find": {
+      "placeholder": "Teclea '?' para obtener ayuda",
+      "help": {
+        "action": "Encontrar acciones...",
+        "project": "Encontrar proyectos...",
+        "package": "Encontrar paquetes...",
+        "config": "Encontrar configuración...",
+        "script": "Encontrar scripts..."
+      }
+    },
+    "import-project": {
+      "import-a-project": "Importar un proyecto",
+      "import-button": "Importar",
+      "input-name-label": "Nombre del proyecto",
+      "input-name-placeholder": "Introduce el nombre de un proyecto",
+      "input-bookmarked-label": "Marcadores del proyecto",
+      "error-path-does-not-exist": "La ruta no existe",
+      "error-not-directory": "La ruta no es un directorio",
+      "error-no-package-json": "package.json no encontrado",
+      "error-name-required": "Nombre del proyecto es requerido",
+      "error-already-exists": "El proyecto ya existe en la base de datos de guijs"
+    },
+    "create-project": {
+      "create-a-project": "Crear proyecto",
+      "simple-project": "Proyecto simple",
+      "simple-project-description": "Proyecto sin espacios de trabajo, solo un nivel.",
+      "mono-repo": "Proyecto mono-repositorio",
+      "mono-repo-description": "Proyecto con espacios de trabajo. Cada espacio de trabajo es un subproyecto separado.",
+      "input-name-label": "Nombre del proyecto",
+      "input-name-placeholder": "Introduce el nombre de un proyecto",
+      "input-generator-label": "Generador de proyecto",
+      "input-generator-placeholder": "Seleccionar un generador de proyecto"
+    },
+    "file-input": {
+      "select-a-file": "Selecciona un archivo:",
+      "select-a-folder": "Selecciona una carpeta:",
+      "no-file-selected": "Archivo no seleccionado",
+      "no-folder-selected": "Carpeta no seleccionada"
+    },
+    "setting-category": {
+      "general": "General",
+      "display": "Display"
+    },
+    "settings": {
+      "dark-mode": "Modo oscuro",
+      "dark-mode-description": "Usa colores oscuros para la interface",
+      "toggle-dark-mode": "Marcador de modo socuro"
+    },
+    "side-pane": {
+      "no-project-open": "Proyecto no abierto",
+      "project-not-found": "Proyecto no encontrado",
+      "find": "Encontrar",
+      "packages": "Paquetes",
+      "scripts": "Scripts"
+    },
+    "project-dropdown": {
+      "no-recent-projects": "No hay proyectos recientes",
+      "recent-projects": "Proyectos recientes"
+    },
+    "workspace": {
+      "select-button": "<div>{name}</div><div class=\"text-gray-500\">Type: {type}</div>",
+      "root": "(root)",
+      "tooltip": "Espacio de trabajo actual",
+      "action": "Click para cambiar espacio de trabajo",
+      "no-workspace-selected": "No hay espacio de trabajo seleccionado"
+    },
+    "edit-workspace": {
+      "edit-current-workspace": "Editar espacio de trabajo actual",
+      "input-name-label": "Nombre de espacio de trabajo",
+      "input-name-placeholder": "Introducir un nombre a espacio de trabajo",
+      "input-type-label": "Tipo de espacio de trabajo",
+      "input-type-placeholder": "Seleccionar un tipo de espacio de trabajo"
+    },
+    "create-workspace": {
+      "create-workspace": "Crear espacio de trabajo",
+      "create-a-workspace": "Crear un espacio de trabajo",
+      "input-name-label": "Nombre de espacio de trabajo",
+      "input-name-placeholder": "Introducir un nombre a espacio de trabajo",
+      "input-generator-label": "Generador de proyecto",
+      "input-generator-placeholder": "Seleccionar un generador de proyecto"
+    },
+    "package": {
+      "official": "oficial",
+      "workspace": "Espacio de trabajo",
+      "tooltip-workspace": "Este paquete es un espacio de trabajo referenciado localmente en su proyecto",
+      "improve-metadata": "Ayuda a mejorar los metadatos",
+      "unknown": "Desconocido",
+      "all": "Todos los paquetes",
+      "show-packages": "Mostrar paquetes",
+      "no-packages": "Paquetes no encontrados",
+      "version": "versión",
+      "latest": "anteriores",
+      "tooltip-wanted": "Versión deseada:",
+      "tooltip-installed": "Versión instalada:",
+      "tooltip-latest": "Versión anterior:"
+    },
+    "install-package": {
+      "install-package": "Instalar paquete",
+      "install-package-with-type": "Instalar {tipo} paquete",
+      "install-with-name": "Instalar {nombre}",
+      "install-as-dev-dependency": "Instalar como dependencia de desarrollo",
+      "input-version-label": "Versión de paquete",
+      "input-version-placeholder": "Seleccionar una versión",
+      "input-selector-type-label": "Tipo de rango de versión",
+      "input-selector-type-placeholder": "Seleccione un tipo de rango",
+      "version": "versión",
+      "use-tag-as-selector": "Usar etiqueta como selector de versión"
+    },
+    "script": {
+      "show-scripts": "Mostrar scripts",
+      "run-script": "Ejecutar script",
+      "stop-script": "Parar script",
+      "edit-script": "Editar script",
+      "output": "Salida",
+      "no-scripts": "Scripts no encontrados"
+    },
+    "edit-script": {
+      "edit-script": "Editar script",
+      "rename-script": "Renombrar script",
+      "rename": "Renombrar",
+      "input-name-label": "Nombre del script",
+      "input-name-placeholder": "Introducir un nombre de script",
+      "edit-directly": "Editar comando directamente"
+    }
+  }
+}
