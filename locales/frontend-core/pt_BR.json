@@ -1,0 +1,154 @@
+{
+  "guijs": {
+    "common": {
+      "search": "Buscar",
+      "more-info": "Mais informações",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "proceed": "Continuar"
+    },
+    "home": {
+      "welcome": "Bem-vindo ao guijs",
+      "quick-actions": "Ações-rápidas",
+      "show-all-commands": "Mostrar todos os comandos",
+      "recent-projects": "Mostrar projetos recentes",
+      "help": "Ajuda",
+      "github-repository": "Repositório GitHub",
+      "website": "Website"
+    },
+    "status-bar": {
+      "toggle-terminals": "Alternar terminais"
+    },
+    "terminals": {
+      "new-terminal": "Novo terminal",
+      "no-terminal": "Nenhum terminal aberto",
+      "close-terminal": "Fechar terminal","close-terminal-pane": "Fechar painel do terminal",
+      "copy": "Copiar seleção",
+      "paste": "Colar"
+    },
+    "find": {
+      "placeholder": "Digite '?' para ajuda",
+      "help": {
+        "action": "Encontre ações...",
+        "project": "Encontre projetos...",
+        "package": "Encontre pacotes....",
+        "config": "Encontre configurações...",
+        "script": "Encontre scripts..."
+      }
+    },
+    "import-project": {
+      "import-a-project": "Importar um projeto",
+      "import-button": "Importar",
+      "input-name-label": "Nome do projeto",
+      "input-name-placeholder": "Informe um nome de projeto",
+      "input-bookmarked-label": "Bookmark the project",
+      "error-path-does-not-exist": "Caminho não existe",
+      "error-not-directory": "Caminho não é um diretório",
+      "error-no-package-json": "Arquivo package.json não encontrado",
+      "error-name-required": "Nome do projeto é requerido",
+      "error-already-exists": "Projeto existente na base de dados de guijs"
+    },
+    "create-project": {
+      "create-a-project": "Criar um projeto",
+      "simple-project": "Projeto simples",
+      "simple-project-description": "Project with no workspaces, only a single level.",
+      "mono-repo": "Mono-repository project",
+      "mono-repo-description": "Project with workspaces. Each workspace is a separate sub-project.",
+      "input-name-label": "Nome do projeto",
+      "input-name-placeholder": "Informe um nome de projeto",
+      "input-generator-label": "Gerador de projeto",
+      "input-generator-placeholder": "Selecione um gerador de projeto"
+    },
+    "file-input": {
+      "select-a-file": "Selecione um arquivo:",
+      "select-a-folder": "Selecione uma pasta:",
+      "no-file-selected": "Nenhum arquivo selecionado",
+      "no-folder-selected": "Nenhuma pasta selecionada"
+    },
+    "setting-category": {
+      "general": "Geral",
+      "display": "Mostrar"
+    },
+    "settings": {
+      "dark-mode": "Modo escuro",
+      "dark-mode-description": "Usar cores escuras na interface",
+      "toggle-dark-mode": "Alternar modo escuro/claro"
+    },
+    "side-pane": {
+      "no-project-open": "Nenhum projeto aberto",
+      "project-not-found": "Projeto não encontrado",
+      "find": "Encontrar",
+      "packages": "Pacotes",
+      "scripts": "Scripts"
+    },
+    "project-dropdown": {
+      "no-recent-projects": "Nenhum projeto recente",
+      "recent-projects": "Projetos recentes"
+    },
+    "workspace": {
+      "select-button": "<div>{name}Tipo: {type}</div>",
+      "root": "(root)",
+      "tooltip": "Área de trabalho atual",
+      "action": "Click para mudar de área de trabalho",
+      "no-workspace-selected": "Nenhuma área de trabalho selecionada"
+    },
+    "edit-workspace": {
+      "edit-current-workspace": "Edite a área de trabalho atual",
+      "input-name-label": "Nome da área de trabalho",
+      "input-name-placeholder": "Informe um nome da área de trabalho",
+      "input-type-label": "Tipo de área de trabalho",
+      "input-type-placeholder": "Selecione um tipo de área de trabalho"
+    },
+    "create-workspace": {
+      "create-workspace": "Criar área de trabalho",
+      "create-a-workspace": "Criar uma área de trabalho",
+      "input-name-label": "Nome da área de trabalho",
+      "input-name-placeholder": "Informe um nome da área de trabalho",
+      "input-generator-label": "Gerador de projeto",
+      "input-generator-placeholder": "Selecione um gerador de projeto"
+    },
+    "package": {
+      "official": "oficial",
+      "workspace": "área de trabalho",
+      "tooltip-workspace": "This package is a workspace referenced locally in your project",
+      "improve-metadata": "Help improve metadata",
+      "unknown": "Desconhecido",
+      "all": "Todos pacotes",
+      "show-packages": "Mostrar pacotes",
+      "no-packages": "Pacotes não encontrados",
+      "version": "versão",
+      "latest": "último",
+      "tooltip-wanted": "Versão desejada:",
+      "tooltip-installed": "Versão instalada:",
+      "tooltip-latest": "Última versão:"
+    },
+    "install-package": {
+      "install-package": "Instalar pacote",
+      "install-package-with-type": "Instalar pacote {type}",
+      "install-with-name": "Instalar {name}",
+      "install-as-dev-dependency": "Install as development dependency",
+      "input-version-label": "Versão do pacote",
+      "input-version-placeholder": "Selecione uma versão",
+      "input-selector-type-label": "Version range type",
+      "input-selector-type-placeholder": "Select a range type",
+      "version": "versão",
+      "use-tag-as-selector": "Use tag as version selector"
+    },
+    "script": {
+      "show-scripts": "Mostrar scripts",
+      "run-script": "Executar script",
+      "stop-script": "Parar script",
+      "edit-script": "Editar script",
+      "output": "Saída",
+      "no-scripts": "Scripts não encontrados"
+    },
+    "edit-script": {
+      "edit-script": "Editar script",
+      "rename-script": "Renomear script",
+      "rename": "Renomear",
+      "input-name-label": "Nome do script",
+      "input-name-placeholder": "Informe o nome do script",
+      "edit-directly": "Edite comando diretamente"
+    }
+  }
+}
